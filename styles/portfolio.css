@@ -6,11 +6,14 @@
     "wdth" 100;
 }
 /* COMMON STYLES FOR THE WEBSITE */
-.first-primary-color{
+.Dark-01{
     color: #181818;
 }
-.second-primary-color{
+.Orange{
     color: #FD6E0A;
+}
+.Dark-02{
+    color: #474747;
 }
 
 /* Nav Styles */
@@ -20,4 +23,11 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
 }
