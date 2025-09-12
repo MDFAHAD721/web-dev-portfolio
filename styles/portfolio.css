@@ -5,5 +5,19 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* COMMON STYLES FOR THE WEBSITE */
+.first-primary-color{
+    color: #181818;
+}
+.second-primary-color{
+    color: #FD6E0A;
+}
 
 /* Nav Styles */
+nav{
+    display: flex;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
