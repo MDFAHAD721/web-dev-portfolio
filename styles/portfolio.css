@@ -184,7 +184,7 @@ main{
 }
 .resume-container{
     display: flex;
-    gap: 70px;
+    gap: 80px;
 }
 .resume-title{
     font-size: 30px;
@@ -205,11 +205,32 @@ main{
     color: #757575;
 }
 .experience-description{
-    font-size: 18px;
+    font-size: 16px;
     color: #757575;
 }
 .last-button{
     text-align: center;
     margin-bottom: 113px;
-
+}
+/* FOOTER STYLES */
+.footer-container{
+    display: flex;
+    gap: 117px;
+    padding: 130px 230px;
+}
+.footer-title{
+    margin-bottom: 20px;
+}
+input[type="text"] , 
+input[type="email"] , 
+textarea{
+    display: block;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 320px;
+    border: none;
+    color: #757575;
+    background-color: white;
+    padding: 18px 30px;
+    margin-bottom: 24px;
 }
